@@ -15,14 +15,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGL-cl-tBS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGL-cl-tBS">
                                 <rect key="frame" x="107" y="230" width="200" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKd-ua-kbj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKd-ua-kbj">
                                 <rect key="frame" x="107" y="360" width="200" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="us"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IA-Ke-M1O">
@@ -32,8 +30,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="ZGL-cl-tBS" firstAttribute="centerX" secondItem="7IA-Ke-M1O" secondAttribute="centerX" id="2uc-aG-R0t"/>
                             <constraint firstItem="7IA-Ke-M1O" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3Ig-27-0JQ"/>
                             <constraint firstItem="7IA-Ke-M1O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="OuH-kE-GrF"/>
+                            <constraint firstItem="ZGL-cl-tBS" firstAttribute="top" secondItem="7IA-Ke-M1O" secondAttribute="bottom" constant="29" id="rbY-zr-g9t"/>
+                            <constraint firstItem="pKd-ua-kbj" firstAttribute="top" secondItem="ZGL-cl-tBS" secondAttribute="bottom" constant="30" id="ris-2f-7ao"/>
+                            <constraint firstItem="pKd-ua-kbj" firstAttribute="centerX" secondItem="ZGL-cl-tBS" secondAttribute="centerX" id="w2q-SP-7k0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
