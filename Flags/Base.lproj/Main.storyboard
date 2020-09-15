@@ -32,8 +32,8 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="7IA-Ke-M1O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gt6-Qw-dmf"/>
-                            <constraint firstItem="7IA-Ke-M1O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="J7D-EP-50B"/>
+                            <constraint firstItem="7IA-Ke-M1O" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3Ig-27-0JQ"/>
+                            <constraint firstItem="7IA-Ke-M1O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="OuH-kE-GrF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
