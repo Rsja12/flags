@@ -13,12 +13,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
     
+    var countries = [String]()
+    var score = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
 
 }
 
-// TODO: Day 19 - min. 5
+// TODO: Day 19 - making the basic game work
