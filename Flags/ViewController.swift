@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         askQuestion()
     }
 
-    func askQuestion() {
+    func askQuestion(action: UIAlertAction!) {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         
@@ -45,7 +45,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
+        var title: String
         
+        if sender.tag == correctAnswer {
+            title = "Correct!"
+            score += 1
+        } else {
+            title = "Try Again.."
+            score -= 1
+        }
+        
+        let ac = UIAlertController(title: title, message: "Your score is \(score)", preferredStyle: .alert)
+        
+        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
+        
+        present(ac, animated: true)
     }
     
     
